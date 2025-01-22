@@ -161,6 +161,8 @@ border-style: none;
 margin-left: 60px;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+justify-items: center;
 margin-top: 60px;
 max-width: 1440px;
 }
