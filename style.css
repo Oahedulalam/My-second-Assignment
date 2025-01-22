@@ -145,10 +145,6 @@ background-image: url("/image/bg.png");
 height: 879px;
 width: auto;
 }
-.card-container:hover{
-border: dotted;
-color: #01ACFD;
-}
 .standard-title{
 text-align: center;
 margin-top: 60px;
@@ -160,6 +156,7 @@ border: 1px solid black;
 border-style: none;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
+row-gap: 20px;
 justify-content: center;
 justify-items: center;
 margin-top: 60px;
