@@ -145,7 +145,7 @@ border-radius: 11px;
 .standard-section{
 background-image: url("/image/bg.png");
 height: 879px;
-width: auto;
+width: 1440px;
 }
 .card-container:hover{
 border: dotted;
