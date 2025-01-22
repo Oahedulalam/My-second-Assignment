@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-Font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+/* navbar related styles */
+.navbar{
+border: 1px solid tomato;
+max-height: 62px;
+max-width: 1050px;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: center;
+border-style: none;
+}
+.navbar:hover {
+border: dotted;
+color: #01ACFD;
+}
+.nav-title{
+display: flex;
+justify-content: center;
+gap: 11px;
+align-items: center;
+font-size: 700;
+font-weight: 32;
+}
+.nav-title>img {
+size-adjust: 62px 62px;
+}
+.nav-section{
+list-style: none;
+display: flex;
+align-items: center;
+gap: 32px;
+margin-left: 186px;
+}
+.home{
+font-weight: 800;
+font-size:20 ;
+text-decoration: none;
+color: #FEA301;
+}
+.about{
+font-weight: 500;
+font-size:20 ;
+text-decoration: none;
+color: #01ACFD;
+}
+.facilities{
+font-weight: 500;
+font-size:20 ;
+text-decoration: none;
+color: #05D4DF;
+}
+.admission{
+font-weight: 500;
+font-size:20 ;
+text-decoration: none;
+color: #5D58EF;
+}
+.optional-btn{
+height: 50px;
+width: 35px;
+align-items: center;
+top: 0;
+display: none;
+}
+/* Contact/nav batton styles */
+.contact-btn{
+margin-left: 154px;
+height:50px ;
+width:197px ;
+padding: 10px;
+background-color: #FEA301;
+color: white;
+font-weight: 500;
+font: 20;
+border-radius: 10px;
+border-style: none;
+}
+/* banner related styles */
+.banner-section{
+display: grid;
+grid-template-columns: repeat(2, 2fr);
+align-items: center;
+gap: 50px;
+border: 1px solid blue;
+width: 1050px;
+height: 575px;
+margin-top: 18px;
+margin-right: auto;
+margin-left: auto;
+border-style: none;
+}
+.banner-heading{
+font-size: 540;
+font-weight: 800;
+}
+.enpowering{
+color: #FEA301;
+}
+.towards-v{
+color: #01ACFD;
+}
+.banner-p{
+margin-top: 24px;
+margin-bottom: 24px;
+font-size: 400;
+font-weight: 20px;
+}
+.hero-img{
+border-image-width: 468px;
+height: 575px;
+}
+/* enroll-btn styles */
+.l-enroll-btn{
+list-style: none;
+}
+.enroll-btn{
+height: 50px;
+width: 197px;
+padding: 10px;
+background-color: black;
+font-weight: 500;
+font: 20;
+color: white;
+list-style: none;
+border-radius: 11px;
+}
+/* Standard Curriculum section styles */
+
+
+
+/* card section  styles */
+.standard-section{
+background-image: url("/image/bg.png");
+height: 879px;
+width: auto;
+}
+.card-container:hover{
+border: dotted;
+color: #01ACFD;
+}
+.standard-title{
+text-align: center;
+margin-top: 60px;
+font-size: 46;
+font-weight: 800;
+}
+.card-container{
+border: 1px solid black;
+border-style: none;
+margin-left: 60px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-top: 60px;
+}
+
+.card-1{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border: 1px solid #DEF5FF;
+height:476px ;
+width: 367px;
+border-radius: 18px;
+background-image:linear-gradient(to bottom,#DEF5FF 10%,white 20%)
+}
+.card-2{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border: 1px solid #FFF4DC;
+height:481px ;
+width: 367px;
+border-radius: 18px;
+background-image:linear-gradient(to bottom,#FFF4DC 10%,white 20%)
+}
+.card-3{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+border: 1px solid #F2E8FF;
+height:476px ;
+width: 367px;
+border-radius: 18px;
+background-image:linear-gradient(to bottom,#F2E8FF 10%,white 20%)
+}
+
+.kinder, .elementary, .middle{
+font-size: 24px;
+font-weight: 800;
+margin-top: 32px;
+margin-bottom: 33px;
+}
+.card-text{
+font-size: 15px;
+font-weight: 300;
+color: #808080;
+margin-bottom: 33px;
+}
+/* read-more btn */
+.read-btn-1, .read-btn-2, .read-btn-3{
+height: 28px;
+width: 100px;
+background-color: white;
+border-style: none;
+}
+.read-btn-1{
+color: #64C8FF;
+}
+.read-btn-2{
+color: #F0AA00;
+}
+.read-btn-3{
+color: #8700FF;
+}
+/* blank-btn section */
+.blank-btn{
+height: 30px;
+width: 30px;
+background-color:#FEA301;
+border-color:#FEA301;
+border-style: none;
+font-weight: 20px;
+font: 20;
+color:white ;
+border-radius:15px;
+margin-top: 80px;
+}
+.blank-btn-head{
+text-align: center;
+}
+  /* <!-- Our Stories related card section  --> */
+.our-stories{
+text-align: center;
+font-size: 46;
+font-weight: 800;
+margin-top: -100px;
+}
+.our-stories-section{
+background-image: url("/image/bg.png");
+height: 1018px;
+width:auto;
+margin-top: ;
+background-image:linear-gradient(to top,#FFF4DC 30%,white 100%)
+
+}
+/* fifth card section related style */
+.card-container-parents{
+border: 1px solid tomato;
+border-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 80px;
+}
+/* single card section related styles */
+.single-card{
+background-color: white;
+border: 1px solid blue;
+border-radius: 16px;
+border-style: none;
+justify-content: center;
+align-items: center;
+margin-top:0;
+height: 620px;
+}
+.single-card-img{
+width: 540px;
+height: 337px;
+border-radius: 16px;
+
+}
+.date-btn{
+height: 47px;
+width: 174px;
+background-color: #3CD8E8;
+font-size: 15;
+font-weight: 500;
+color: white;
+border-style: none;
+border-radius: 47px;
+margin-left: 38px;
+}
+
+
+
+.date-btn-parents{
+margin-top: -30px ;
+}
+.single-card-heading{
+font-weight: 800;
+font-size: 24;
+color: #000000;
+margin-left: 38px;
+margin-top: 33px;
+margin-bottom: 47px;
+}
+.single-card-p{
+font-weight: 200;
+font-size: 15;
+color: #666666;
+margin-left: 38px;
+margin-bottom: 34px;
+}
+
+/* fourth card section related styles */
+.fourth-card{
+height:622px ;
+width: 601px;
+margin-left: 18px;
+display: grid;
+grid-template-columns: repeat(2, 2fr);
+justify-content: center;
+text-align: center;
+gap: 19px;
+}
+.fourth-card-1, 
+.fourth-card-2, 
+.fourth-card-3, 
+.fourth-card-4{
+border-radius: 1rem;
+}
+.fourth-card-1{
+background-color: white;
+border-radius: 16px;
+}
+.fourth-card-2{
+background-color: white;
+border-radius: 16px;
+}
+.fourth-card-3{
+background-color: white;
+border-radius: 16px;
+}
+.fourth-card-4{
+background-color: white;
+border-radius: 16px;
+}
+.fourth-card-image-1,
+
+.fourth-card-image-2,
+
+.fourth-card-image-3,
+
+.fourth-card-image-4{
+border-radius: 1rem;
+width: 291px;
+height:177px ;
+}
+.card-1th-heading,
+.card-2th-heading,
+.card-3th-heading,
+.card-4th-heading{
+height: 57px; 
+width: 214;                          
+font-weight: 800;
+font-size: 15;
+margin-top: 19px;
+margin-right: 38px;
+}
+
+/* fourth card er small card and button section */
+.fourth-card-btn-parents{
+margin-right: 38px;
+margin-top: -26px;
+}
+.smallcard-btn-1,
+.smallcard-btn-2,
+.smallcard-btn-3,
+.smallcard-btn-4{
+height: 38px;
+width: 174px;
+font-size: 15;
+font-weight: 500;
+color: white;
+border-style: none;
+border-radius: 47px;
+}
+.smallcard-btn-1{
+background-color: #95B226;
+}
+.smallcard-btn-2{
+background-color: #5D58F0;
+}
+.smallcard-btn-3{
+background-color: #F0AA00;
+}
+.smallcard-btn-4{
+background-color: rgb(180, 37, 37);
+}
+/* footer section related styles */
+.footer-parents-section{
+display: flex;
+justify-content: space-around;
+border: 1px solid #01ACFD;
+width: auto;
+height: 520px;
+margin-top: -190px;
+background-color: #01ACFD;
+}
+.footer-part-tow, .footer-part-three{
+margin-top: 122px
+}
+/* footer-part-one section */
+.footer-part-one{
+margin-top: 123px;
+}
+.div-childern-1{
+display: flex;
+}
+.children-1-heading{
+font-weight: 800;
+font-size: 42;
+color: #FFFFFF;
+}
+.children-1-p{
+font-weight: 100;
+font-size: 20;
+color: #FFFFFF;
+margin-top: 35px;
+}
+/* footer-part-two section  */
+.about-p{
+font-weight: 800;
+font-size: 24;
+color: #FFFFFF;
+margin-bottom: 32px;
+}
+.footer-part-btn-section{
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 20px;
+}
+.home-footer-btn,
+.about-footer-btn,
+.facilities-footer-btn,
+.admission-footer-btn{
+background-color: #01ACFD;
+border-style: none;
+color:#FFFFFF ;
+font-size: medium;
+font-weight: 25;
+}
+/* footer-part-three section */
+.footer-part-three-image{
+margin-top: 32px;
+}
+.keep-in-p{
+font-weight: 800;
+font-size: 26;
+color: #FFFFFF;
+}
+
+/* media quary styles section */
+
+@media screen and (max-width: 576px) { 
+.nav-logo{
+padding: 20px;
+justify-items: left;
+margin-left: 50px;
+}
+.school,
+.home,
+.about,
+.facilities,
+.admission,
+.contact-btn{display:none;
+}
+.optional-btn{
+display: block;
+justify-content: center;
+margin-left: 500px;
+padding: 20px;
+}
+/* banner related styles */
+.banner-section{
+max-width: 576px;
+display: grid;
+grid-template-columns: 1fr;
+gap: 16px;
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+.card-container{
+grid-template-columns:repeat(1, 1fr) ;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+gap: 10px;
+padding: 20px;
+}
+.standard-title{
+text-align: center;
+margin-top:300px;
+margin-bottom: auto;
+}
+.blank-btn-head{
+display: none;
+}
+
+.single-card{
+display: none;
+}
+.our-stories-section{
+flex-direction: column;
+margin-top: 700px;
+padding: 300px;
+margin-left: 20px;
+justify-content: center;
+}
+/* footer section related styles */
+.footer-parents-section{
+flex-direction: column;
+margin-top: 10px;
+}
+.footer-part-three{
+margin-top: 0;
+text-align: center;
+margin-right:auto;
+margin-left: auto;
+}
+.footer-part-one{
+margin-top:0;
+padding: 20px;
+text-align: center;
+}
+.footer-part-tow{
+margin-top: 0;
+text-align: center;
+}
+}
